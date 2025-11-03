@@ -1,30 +1,49 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
+  
 <head>
+   
     <title>CSS - More Selectors</title>
 
     <!-- Don't forget to link to the Bootstrap stylesheet below here!! -->
-    <link rel="" href="">
-
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
+      <!-- navbar start -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Learning Bootstrap</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    <a class="nav-link" href="bears.html">bears</a>
+                    <a class="nav-link" href="dog.html">Pigs</a>
+                    <a class="nav-link disabled" aria-disabled="true">navbar</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- navbar end -->
     <!-- Container -->
-    <div class="">
+    <div class="container">
         <!-- Row 1 - heading -->
-        <div class="">
-            <div class="">
+        <div class="row">
+            <div class="text-center">
                 <h1>Big Heading - Center The text</h1>
-                <a href="index.html">Home</a>
-                <a href="bears.html">More Bear Info</a>
+             
 
             </div>
         </div>
 
         <!-- Row 2- 50/50 split -->
-        <div class="">
-            <div class="">
+        <div class="row">
+            <div class="col-sm-6">
                 <h2>Section 1 50%/50%</h2>
                 <p>
                     Morbi faucibus enim id leo euismod, vel venenatis mi pretium. Morbi rhoncus, nibh in fringilla
@@ -36,7 +55,8 @@
                     porta gravida. Integer eleifend tristique pretium. Sed lobortis lectus nec nisl cursus semper.
                 </p>
             </div>
-            <div class="">
+            <div class="col-sm-6">
+                <div class="table table-dark table-bordered"> 
                 <table>
                     <thead>
                         <td>Tag</td>
@@ -64,12 +84,13 @@
                         <td>Surrounds each individual cell of a table.</td>
                     </tr>
                 </table>
+                </div>
             </div>
         </div>
 
         <!-- Row 3 - thirds -->
-        <div class="">
-            <div class="">
+        <div class="row">
+            <div class="col-sm-4">
                 <h2>Section 2 - Thirds (3 equal columns)</h2>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis cursus turpis. Nam at
@@ -81,7 +102,7 @@
                     metus viverra, viverra ullamcorper odio.
                 </p>
             </div>
-            <div class="">
+            <div class="col-sm-4">
                 <p>
                     Proin rhoncus, leo non molestie suscipit, risus velit hendrerit enim, sed ullamcorper nisl nisi quis
                     orci. Phasellus non
@@ -92,7 +113,7 @@
                     magna, id dapibus ex euismod et. Integer ut quam vulputate, eleifend quam eu, dapibus lacus.
                 </p>
             </div>
-            <div class="">
+            <div class="col-sm-4">
                 <ol>
                     <li>
                         Fusce vestibulum tortor eget diam vestibulum, a tincidunt ligula ultrices.
@@ -111,8 +132,8 @@
         </div>
 
         <!-- Row 4 - 25% - 50% - 25% -->
-        <div class="">
-            <div class="">
+        <div class="row">
+            <div class="col-sm-3">
                 <h2>Section 3 - 25%, 50%, 25%</h2>
                 <p>
                     Etiam vitae mauris eu quam facilisis tincidunt id id tellus. Donec eget tristique mauris, a
@@ -125,10 +146,10 @@
                     facilisis consequat.
                 </p>
             </div>
-            <div class="">
+            <div class="col-sm-6">
                 <img src="img/sierras800x600.jpg" class="img-fluid">
             </div>
-            <div class="">
+            <div class="col-sm-3">
                 <ul>
                     <li>
                         Curabitur id eros ut dui vehicula molestie ut a magna.
@@ -153,7 +174,8 @@
 
         </div>
     </div>
-
+	<!-- Optional JavaScript -->
+	<script src="js/bootstrap.bundle.js"></script>
 </body>
 
 </html>

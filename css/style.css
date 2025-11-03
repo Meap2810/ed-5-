@@ -1,3 +1,8 @@
 body {
     background-color: darkseagreen;
 }
+
+table,
+td {
+    border: solid 1px;
+}

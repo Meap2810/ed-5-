@@ -16,98 +16,148 @@
 </head>
 
 <body>
+	<!-- navbar start -->
+	<nav class="navbar navbar-expand-lg bg-body-tertiary">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="#">Learning Bootstrap</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+				aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+				<div class="navbar-nav">
+					<a class="nav-link active" aria-current="page" href="index.html">Home</a>
+					<a class="nav-link" href="bears.html">bears</a>
+					<a class="nav-link" href="dog.html">Pigs</a>
+					<a class="nav-link disabled" aria-disabled="true">navbar</a>
+				</div>
+			</div>
+		</div>
+	</nav>
+	<!-- navbar end -->
+
 	<div class="container">
 		<div class="row">
 			<div class="col text-center">
 				<h1>Introduction To Bootstrap</h1>
-				<a href="index.html">Home</a>
-				<a href="bears.html">More Bear Info</a>
 
 			</div>
 		</div>
+		<div class="accordion" id="accordionExample">
+			<div class="accordion-item">
+				<h2 class="accordion-header">
+					<button class="accordion-button" type="button" data-bs-toggle="collapse"
+						data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+						Important
+					</button>
+				</h2>
+				<div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+					<div class="accordion-body">
+						there is <strong>no</strong> dogs
+					</div>
+				</div>
+			</div>
+			<div class="accordion-item">
+				<h2 class="accordion-header">
+					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+						data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+						Info
+					</button>
+				</h2>
+				<div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+					<div class="accordion-body">
+						<strong>trust me</strong>
+					</div>
+				</div>
+			</div>
 
 
-		<div class="row">
-			<div class="col-sm-6">
-				<h2 class="text-center">Bear Heading</h2>
-				<p>
-					Etiam vitae mauris eu quam facilisis tincidunt id id tellus. Donec eget tristique mauris, a
-					sollicitudin mauris. Proin molestie euismod est cursus varius. Nunc pellentesque fringilla lorem
-					consectetur dignissim. Vivamus pellentesque libero nibh, non facilisis nisl tristique vel.
-					Pellentesque suscipit purus posuere mi pharetra fermentum. Donec et turpis in diam tempus eleifend.
-					Nulla laoreet felis nec erat feugiat, ac ultricies urna aliquam. Curabitur mollis facilisis
-					consequat.
-				</p>
+			<div class="row">
+				<div class="col-sm-6">
+					<h2 class="text-center">Bear Heading</h2>
+					<p>
+						Etiam vitae mauris eu quam facilisis tincidunt id id tellus. Donec eget tristique mauris, a
+						sollicitudin mauris. Proin molestie euismod est cursus varius. Nunc pellentesque fringilla lorem
+						consectetur dignissim. Vivamus pellentesque libero nibh, non facilisis nisl tristique vel.
+						Pellentesque suscipit purus posuere mi pharetra fermentum. Donec et turpis in diam tempus
+						eleifend.
+						Nulla laoreet felis nec erat feugiat, ac ultricies urna aliquam. Curabitur mollis facilisis
+						consequat.
+					</p>
+				</div>
+				<div class="col-sm-6">
+					<img src="img/bears800x600.jpg" alt="bears" class="img-fluid">
+				</div>
+
 			</div>
-			<div class="col-sm-6">
-				<img src="img/bears800x600.jpg" alt="bears" class="img-fluid">
+
+			<div class="row">
+				<div class="col-sm-6">
+					<img src="img/earth800x600.jpg" alt="earth from space" class="img-fluid">
+				</div>
+				<div class="col-sm-6">
+					<h2 class="text-center">Earth Heading</h2>
+					<p>
+						Etiam vitae mauris eu quam facilisis tincidunt id id tellus. Donec eget tristique mauris, a
+						sollicitudin mauris. Proin molestie euismod est cursus varius. Nunc pellentesque fringilla lorem
+						consectetur dignissim. Vivamus pellentesque libero nibh, non facilisis nisl tristique vel.
+						Pellentesque suscipit purus posuere mi pharetra fermentum. Donec et turpis in diam tempus
+						eleifend.
+						Nulla laoreet felis nec erat feugiat, ac ultricies urna aliquam. Curabitur mollis facilisis
+						consequat.
+					</p>
+				</div>
 			</div>
+
+
+			<div class="row">
+				<div class="col-sm-4">
+					<img src="img/surfer800x600.jpg" alt="surfer in a wave" class="img-fluid">
+				</div>
+				<div class="col-sm-8">
+					<h2 class="text-center">Surfer Heading</h2>
+					<p>
+						Etiam vitae mauris eu quam facilisis tincidunt id id tellus. Donec eget tristique mauris, a
+						sollicitudin mauris. Proin molestie euismod est cursus varius. Nunc pellentesque fringilla lorem
+						consectetur dignissim. Vivamus pellentesque libero nibh, non facilisis nisl tristique vel.
+						Pellentesque suscipit purus posuere mi pharetra fermentum. Donec et turpis in diam tempus
+						eleifend.
+						Nulla laoreet felis nec erat feugiat, ac ultricies urna aliquam. Curabitur mollis facilisis
+						consequat.
+					</p>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-sm-4">
+					<img src="img/tiger800x600.jpg" alt="tiger" class="img-fluid">
+				</div>
+				<div class="col-sm-8">
+					<h2 class="text-center">Tiger Heading</h2>
+					<p>
+						Etiam vitae mauris eu quam facilisis tincidunt id id tellus. Donec eget tristique mauris, a
+						sollicitudin mauris. Proin molestie euismod est cursus varius. Nunc pellentesque fringilla lorem
+						consectetur dignissim. Vivamus pellentesque libero nibh, non facilisis nisl tristique vel.
+						Pellentesque suscipit purus posuere mi pharetra fermentum. Donec et turpis in diam tempus
+						eleifend.
+						Nulla laoreet felis nec erat feugiat, ac ultricies urna aliquam. Curabitur mollis facilisis
+						consequat.
+					</p>
+				</div>
+			</div>
+
+
 
 		</div>
 
-		<div class="row">
-			<div class="col-sm-6">
-				<img src="img/earth800x600.jpg" alt="earth from space" class="img-fluid">
-			</div>
-			<div class="col-sm-6">
-				<h2 class="text-center">Earth Heading</h2>
-				<p>
-					Etiam vitae mauris eu quam facilisis tincidunt id id tellus. Donec eget tristique mauris, a
-					sollicitudin mauris. Proin molestie euismod est cursus varius. Nunc pellentesque fringilla lorem
-					consectetur dignissim. Vivamus pellentesque libero nibh, non facilisis nisl tristique vel.
-					Pellentesque suscipit purus posuere mi pharetra fermentum. Donec et turpis in diam tempus eleifend.
-					Nulla laoreet felis nec erat feugiat, ac ultricies urna aliquam. Curabitur mollis facilisis
-					consequat.
-				</p>
-			</div>
-		</div>
-
-
-		<div class="row">
-			<div class="col-sm-4">
-				<img src="img/surfer800x600.jpg" alt="surfer in a wave" class="img-fluid">
-			</div>
-			<div class="col-sm-8">
-				<h2 class="text-center">Surfer Heading</h2>
-				<p>
-					Etiam vitae mauris eu quam facilisis tincidunt id id tellus. Donec eget tristique mauris, a
-					sollicitudin mauris. Proin molestie euismod est cursus varius. Nunc pellentesque fringilla lorem
-					consectetur dignissim. Vivamus pellentesque libero nibh, non facilisis nisl tristique vel.
-					Pellentesque suscipit purus posuere mi pharetra fermentum. Donec et turpis in diam tempus eleifend.
-					Nulla laoreet felis nec erat feugiat, ac ultricies urna aliquam. Curabitur mollis facilisis
-					consequat.
-				</p>
-			</div>
-		</div>
-
-		<div class="row">
-			<div class="col-sm-4">
-				<img src="img/tiger800x600.jpg" alt="tiger" class="img-fluid">
-			</div>
-			<div class="col-sm-8">
-				<h2 class="text-center">Tiger Heading</h2>
-				<p>
-					Etiam vitae mauris eu quam facilisis tincidunt id id tellus. Donec eget tristique mauris, a
-					sollicitudin mauris. Proin molestie euismod est cursus varius. Nunc pellentesque fringilla lorem
-					consectetur dignissim. Vivamus pellentesque libero nibh, non facilisis nisl tristique vel.
-					Pellentesque suscipit purus posuere mi pharetra fermentum. Donec et turpis in diam tempus eleifend.
-					Nulla laoreet felis nec erat feugiat, ac ultricies urna aliquam. Curabitur mollis facilisis
-					consequat.
-				</p>
-			</div>
-		</div>
-
-
-
-	</div>
 
 
 
 
 
 
-	<!-- Optional JavaScript -->
-	<script src="js/bootstrap.bundle.js"></script>
+		<!-- Optional JavaScript -->
+		<script src="js/bootstrap.bundle.js"></script>
 
 </body>
 
